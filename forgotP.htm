@@ -1,0 +1,60 @@
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css.css">
+    <link rel="stylesheet" href="./cssPlus.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body onload="resize()" class="backgroundPage">
+    <div class="container-fluid h-100" id="container">
+        <div class="row h-100">
+            <div class="col-3 pl-0 pr-0">
+                <div class="cover">
+                    <img src="./cover.jpg" alt="" class="coverImage">
+                </div>
+            </div>
+            <div class="col-9 pl-0 pr-0">
+                <div class="backIcon">
+                    <a href="./login.htm"><img src="./arrowLeftIcon2.svg" alt="" class="backIconStyle mt-3"></a>
+                </div>
+                <div class="form d-flex justify-content-center align-items-center alignCenter">
+                    <form class="backgroundFormStyle2 w-100 shadow">
+                        <div class="title mb-4">
+                            <span class="text-muted fontStyle3">Forgot Password?</span>
+                        </div>
+                        <div class="caption mb-5">
+                            <span class="text-muted fontStyle font-weight-light">
+                                Enter the email address you used when you joined and we'll send you instructions to
+                                reset
+                                your
+                                password.
+                            </span>
+                        </div>
+                        <div class="emailBox">
+                            <div class="label ml-3">
+                                <label for="Email" class="text-muted fontStyle2-2 font-weight-bold">• Email
+                                    Address</label>
+                            </div>
+                            <input type="email" class="inputBoxStyle emailBoxOpacity mt-1 mb-2 shadow" id="inputId">
+                        </div>
+                        <div class="buttonSend">
+                            <button class="btn btn-dark buttonStyle shadow mb-1" id="buttonId">Send Reset
+                                instructions</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="./js.js"></script>
+
+</html>

@@ -1,0 +1,64 @@
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body onload="resize()" class="backgroundPage">
+    <div class="container-fluid h-100" id="container">
+        <div class="row justify-content-center align-items-center h-100">
+            <div class="col-1">
+                <div class="backIcon">
+                    <a href="./login.htm"><img src="./arrowLeftIcon.svg" alt="" class="arrowLeftStyle linkStyle"></a>
+                </div>
+            </div>
+            <div class="form backgroundFormStyle shadow-sm text-center">
+                <div class="col">
+                    <div class="title">
+                        <span class="text-dark">Create Account</span>
+                    </div>
+                    <div class="inputUserName">
+                        <input type="text" class="inputBoxStyle inputUserNameStyle mt-4 mb-2" placeholder="User Name">
+                    </div>
+                    <div class="email">
+                        <input type="email" class="inputBoxStyle inputEmailStyle mb-2" placeholder="Email">
+                    </div>
+                    <div class="password">
+                        <input type="password" class="inputBoxStyle inputPasswordStyle mb-2" id="HSPasswordId"
+                            placeholder="Password" onblur="CWConfirmPassword()" onmousemove="CWConfirmPassword()"
+                            onblur="inactiveConfirmPassword()">
+                        <input type="text" readonly class="hideShowPasswordIcon inputBoxStyle rounded-circle"
+                            onmouseover="hideShowPassword2()" onmouseout="hideShowPassword2()">
+                    </div>
+                    <div class="cofirmPassword">
+                        <input type="password" class="inputBoxStyle inputConfirmPasswordStyle mb-3"
+                            id="confirmPasswordId" onblur="CWConfirmPassword()" onmousemove="CWConfirmPassword()"
+                            placeholder="Confirm Password">
+                    </div>
+                    <div class="buttonSignup">
+                        <button type="submit" class="btn btn-dark buttonStyle mb-4">SignUp</button>
+                    </div>
+                    <div class="Conditions mb-3">
+                        <span class="text-muted font-weight-light fontStyle2">
+                            By clicking the SignUp button, you agree to our <a href="#"
+                                class="text-muted font-weight-normal fontStyle2-2 linkStyle">Terms &
+                                Conditions</a>, and <a href="#"
+                                class="text-muted font-weight-normal fontStyle2-2 linkStyle">Privacy Policy</a>.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="./js.js"></script>
+
+</html>

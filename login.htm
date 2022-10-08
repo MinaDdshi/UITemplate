@@ -1,0 +1,51 @@
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body onload="resize()" class="backgroundPage">
+    <div class="countainer-fluid h-100" id="container">
+        <div class="form d-flex justify-content-center align-items-center text-center alignCenter">
+            <form>
+                <div class="title">
+                    <span class="text-dark">Welcome!</span>
+                </div>
+                <div class="inputUserName">
+                    <input type="text" class="inputBoxStyle mt-4 mb-2 inputUserNameStyle shadow-sm"
+                        placeholder="User Name" id="inputUserNameId">
+                </div>
+                <div class="inputPassword">
+                    <input type="password" class="inputBoxStyle mb-3 inputPasswordStyle shadow-sm"
+                        placeholder="Password" id="HSPassword">
+                    <input type="text" readonly class="hideShowPasswordIcon rounded-circle inputBoxStyle shadow-sm"
+                        onmouseover="hideShowPassword()" onmouseout="hideShowPassword()">
+                </div>
+                <div class="buttonLogin">
+                    <button type="submit" class="btn btn-dark buttonStyle mb-4 shadow-sm">Log In</button>
+                </div>
+                <div class="qestion">
+                    <span class="text-muted font-weight-light fontStyle">Forgot
+                        <a href="./forgotP.htm" class="text-muted font-weight-normal linkStyle">Password</a>?
+                    </span>
+                </div>
+            </form>
+        </div>
+        <div class="createNewAccount text-center">
+            <span>
+                <a href="./signUp.htm" class="text-muted fontStyle linkStyle">Create new account
+                    <img src="./arrowRightIcon.svg" class="arrowRightStyle" id="arrowRight"></a>
+            </span>
+        </div>
+</body>
+
+<script src="./js.js"></script>
+
+</html>

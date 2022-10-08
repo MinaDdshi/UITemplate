@@ -1,0 +1,194 @@
+.backgroundPage {
+    background-image: url(./backgroundPageImage.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.alignCenter {
+    height: 90%;
+}
+
+.inputBoxStyle {
+    width: 300px;
+    padding: 8px;
+    border-radius: 30px;
+    border-width: 0px;
+    font-size: 12px;
+    text-indent: 35px;
+    outline-width: 0px;
+}
+
+.inputBoxStyle:hover {
+    opacity: 1;
+}
+
+.inputBoxStyle:focus {
+    opacity: 1;
+}
+
+.inputUserNameStyle {
+    opacity: 0.7;
+    background-image: url(./userIcon.svg);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 12px;
+}
+
+.inputPasswordStyle {
+    opacity: 0.7;
+    background-image: url(./passwordIcon.svg);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 10px;
+    width: 260px;
+}
+
+.hideShowPasswordIcon {
+    opacity: 0.5;
+    background-image: url(./hideShowIcon.svg);
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position: 7px;
+    width: 36px !important;
+}
+
+.hideShowPasswordIcon:hover {
+    opacity: 1;
+    cursor: default;
+}
+
+.hideShowPasswordIcon:focus {
+    opacity: 1 !important;
+}
+
+.buttonStyle {
+    width: 300px;
+    padding: 8px;
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+.fontStyle {
+    font-size: 14px;
+}
+
+.linkStyle:hover {
+    text-decoration: none;
+    color: black !important;
+}
+
+.arrowRightStyle {
+    width: 10px;
+    height: 10px;
+    opacity: 0.6;
+}
+
+
+
+
+
+
+
+
+
+
+.backgroundFormStyle {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    padding: 40px;
+}
+
+.fontStyle2 {
+    font-size: 11px;
+}
+
+.fontStyle2-2 {
+    font-size: 12px;
+}
+
+.arrowLeftStyle {
+    opacity: 0.6;
+    width: 15px;
+    height: 15px;
+    float: right;
+}
+
+.arrowLeftStyle:hover {
+    opacity: 1;
+}
+
+.inputEmailStyle {
+    opacity: 0.7;
+    background-image: url(./emailIcon.svg);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 12px;
+}
+
+.inputConfirmPasswordStyle {
+    opacity: 0.7;
+    background-image: url(./confirmPasswordIcon.svg), url(./wrong.png), url(./correct.png);
+    background-repeat: no-repeat;
+    background-size: 30px, 15px, 15px;
+    background-position: 10px, 300px, 300px;
+    width: 300px;
+}
+
+.inputConfirmPasswordStyleCorrect {
+    opacity: 0.7;
+    background-image: url(./confirmPasswordIcon.svg), url(./wrong.png), url(./correct.png);
+    background-repeat: no-repeat;
+    background-size: 30px, 15px, 15px;
+    background-position: 10px, 300px, 270px;
+    width: 300px;
+}
+
+.inputConfirmPasswordStyleWrong {
+    opacity: 0.7;
+    background-image: url(./confirmPasswordIcon.svg), url(./wrong.png), url(./correct.png);
+    background-repeat: no-repeat;
+    background-size: 30px, 15px, 15px;
+    background-position: 10px, 270px, 300px;
+    width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+.coverImage {
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+}
+
+.backIconStyle {
+    width: 17px;
+    height: 17px;
+    opacity: 0.5;
+    margin-left: 14px;
+}
+
+.backIconStyle:hover {
+    opacity: 1;
+}
+
+.backgroundFormStyle2 {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 100px;
+}
+
+.fontStyle3 {
+    font-size: 20px;
+}
+
+.widthPlus {
+    width: 250px;
+}
